@@ -1,8 +1,12 @@
 #pragma once
-
 #include "CoreMinimal.h"
 #include "EditorSubsystem.h"  // Change this line
-#include "StoryEditorSubsystem.generated.h"
+
+#include "NodeStructTypes.h"
+
+
+
+
 
 UCLASS(BlueprintType)
 class STORYEDITOR_API UStoryEditorSubsystem : public UEditorSubsystem // Change this line
@@ -17,4 +21,8 @@ public:
 
     UFUNCTION(BlueprintCallable, Category = "Story Editor")
     void TestLog();
+
+    UFUNCTION(BlueprintCallable, Category = "Story Editor")
+    void CreateDialogueNode(UDataTable* DataTable, const FDialogueTicket& DialogueTicket);
 };
+

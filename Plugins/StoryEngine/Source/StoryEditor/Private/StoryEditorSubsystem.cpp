@@ -19,3 +19,8 @@ void UStoryEditorSubsystem::TestLog()
 {
     UE_LOG(LogTemp, Warning, TEXT("Hello World"));
 }
+
+void UStoryEditorSubsystem::CreateDialogueNode(UDataTable* DataTable, const FDialogueTicket& DialogueTicket)
+{
+
+}

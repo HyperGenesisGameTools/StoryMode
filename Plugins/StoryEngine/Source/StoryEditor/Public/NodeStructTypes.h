@@ -1,15 +1,17 @@
+/// <summary>
+/// 
+/// </summary>
 
-
-USTRUCT(BlueprintType)
-struct FDialogueTicket
-{
-    GENERATED_BODY()
-    
-
-    UPROPERTY()
-    FString CharacterName;
-
-    UPROPERTY()
-    FString DialogueText;
-
-};
+//USTRUCT/*(BlueprintType)
+//struct FDialogueTicket
+//{
+//    GENERATED_BODY()
+//    
+//
+//    UPROPERTY()
+//    FString CharacterName;
+//
+//    UPROPERTY()
+//    FString DialogueText;
+//
+//};*/

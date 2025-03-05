@@ -2,7 +2,10 @@
 #include "CoreMinimal.h"
 #include "EditorSubsystem.h"  // Change this line
 
-#include "NodeStructTypes.h"
+//#include "NodeStructTypes.h"
+
+
+#include "StoryEditorSubsystem.generated.h"
 
 
 
@@ -23,6 +26,6 @@ public:
     void TestLog();
 
     UFUNCTION(BlueprintCallable, Category = "Story Editor")
-    void CreateDialogueNode(UDataTable* DataTable, const FDialogueTicket& DialogueTicket);
+    void CreateDialogueNode(UDataTable* DataTable);
 };
 
